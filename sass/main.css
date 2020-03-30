@@ -8,19 +8,155 @@ html body {
 html body h1 {
   margin: 0;
 }
+html body h2 {
+  margin: 0;
+}
+html body a {
+  text-decoration: none;
+}
 
 header {
   text-align: center;
   background-color: #579C87;
   border-bottom: 2px solid #A1C181;
+  padding: 38px 0;
 }
 header h1 {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 4.8rem;
   font-weight: 700;
   color: #FDCB46;
-  line-height: 12.5rem;
   letter-spacing: -3px;
+}
+
+main {
+  padding: 35px;
+}
+main .menu {
+  margin: 0 auto;
+}
+main .menu__prev {
+  height: 550px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 15px #CCCCCC;
+  display: flex;
+}
+main .menu__prev a {
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+}
+main .menu__prev h2 {
+  margin-bottom: 20px;
+}
+main .menu__prev--note {
+  background-color: #FCDFDB;
+}
+main .menu__prev--note h2 {
+  font-family: "Devonshire", cursive;
+  font-weight: 500;
+  font-size: 3.3rem;
+  color: #3C1218;
+}
+main .menu__prev--note span {
+  font-family: "Itim", cursive;
+  font-size: 4.6rem;
+  font-style: italic;
+  color: #3C1218;
+}
+main .menu__prev--chic {
+  background-color: #FFF5FE;
+}
+main .menu__prev--chic h2 {
+  font-family: "Croissant One", cursive;
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: #D8852E;
+}
+main .menu__prev--chic span {
+  font-family: "Times New Roman";
+  font-size: 4.2rem;
+  font-weight: 600;
+  color: #D8852E;
+}
+main .menu__prev--delight {
+  background-color: #F9F9F9;
+}
+main .menu__prev--delight h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4.3rem;
+  font-weight: 500;
+  color: #0887FB;
+}
+main .menu__prev--delight span {
+  font-family: "Caveat", cursive;
+  font-size: 5.3rem;
+  font-weight: 500;
+  color: #0887FB;
+}
+main .menu__prev--taste {
+  background-color: #FDFFFD;
+}
+main .menu__prev--taste h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3.8rem;
+  font-weight: 500;
+  color: #72BF56;
+}
+main .menu__prev--taste span {
+  font-family: "Caveat", cursive;
+  font-size: 5.3rem;
+  font-weight: 500;
+  color: #72BF56;
+}
+main .soon {
+  text-align: center;
+  margin: 10px auto;
+}
+main .soon .soon__anim {
+  background-color: #579C87;
+  color: #FDCB46;
+  border-radius: 15px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 2.5rem;
+  margin: 60px 90px;
+  line-height: 5.8rem;
+}
+
+/************************TABLETS OVERRIDE STYLE************************/
+@media (min-width: 768px) {
+  main .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+  }
+  main .menu__prev {
+    width: 455px;
+  }
+}
+/************************DESKTOPS OVERRIDE STYLE************************/
+footer {
+  text-align: center;
+  background-color: #579C87;
+  border-top: 2px solid #A1C181;
+  padding: 20px 15px;
+  display: flex;
+}
+footer .legal, footer .contact {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 2.2rem;
+  flex-grow: 1;
+}
+footer .legal a, footer .contact a {
+  color: #FDCB46;
+}
+footer .legal {
+  text-align: left;
+}
+footer .contact {
+  text-align: right;
 }
 
 /*# sourceMappingURL=main.css.map */

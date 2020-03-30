@@ -1,0 +1,141 @@
+main {
+  padding: 35px;
+
+
+  .menu {
+    margin: 0 auto;
+
+
+    &__prev {
+      height: 550px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px $menu-prev-shadow-color;
+      display: flex;
+
+      a {
+        margin: auto;
+        text-align: center;
+        font-size: 3rem;
+      }
+
+      h2 {
+        margin-bottom: 20px;
+      }
+
+      &--note {
+        background-color: $menu-note-box-color;
+
+        h2 {
+          font-family: $devonshire;
+          font-weight: 500;
+          font-size: 3.3rem;
+          color: $menu-note-name-color;
+        }
+
+        span {
+          font-family: $itim;
+          font-size: 4.6rem;
+          font-style: italic;
+          color: $menu-note-name-color;
+        }
+      }
+
+      &--chic {
+        background-color: $menu-chic-box-color;
+
+        h2 {
+          font-family: $croissant;
+          font-size: 2.6rem;
+          font-weight: 500;
+          color: $menu-chic-name-color;
+        }
+
+        span {
+          font-family: $times;
+          font-size: 4.2rem;
+          font-weight: 600;
+          color: $menu-chic-name-color;
+        }
+      }
+
+      &--delight {
+        background-color: $menu-delight-box-color;
+
+        h2 {
+          font-family: $dancing;
+          font-size: 4.3rem;
+          font-weight: 500;
+          color: $menu-delight-name-color;
+        }
+
+        span {
+          font-family: $caveat;
+          font-size: 5.3rem;
+          font-weight: 500;
+          color: $menu-delight-name-color;
+        }
+      }
+
+      &--taste {
+        background-color: $menu-taste-box-color;
+
+        h2 {
+          font-family: $kaushan;
+          font-size: 3.8rem;
+          font-weight: 500;
+          color: $menu-taste-name-color;
+        }
+
+        span {
+          font-family: $caveat;
+          font-size: 5.3rem;
+          font-weight: 500;
+          color: $menu-taste-name-color;
+        }
+      }
+    }
+  }
+
+  .soon {
+    text-align: center;
+    margin: 10px auto;
+
+    .soon__anim {
+      background-color: $primary-color;
+      color: $primary-color-text;
+      border-radius: 15px;
+      font-family: $montserrat;
+      font-size: 2.5rem;
+      margin: 60px 90px;
+      line-height: 5.8rem;
+    }
+
+  }
+}
+
+
+/************************TABLETS OVERRIDE STYLE************************/
+//@media (min-width: 768px) {
+//
+//  main {
+//
+//    .menu {
+//      display: flex;
+//      flex-wrap: wrap;
+//      justify-content: space-between;
+//      align-items: center;
+//      align-content: space-between;
+//
+//
+//      &__prev {
+//        width: 455px;
+//      }
+//    }
+//  }
+//
+//}
+
+/************************DESKTOPS OVERRIDE STYLE************************/
+//@media (min-width: 992px) {
+//
+//}
