@@ -1,0 +1,14 @@
+header {
+  text-align: center;
+  background-color: $primary-color;
+  border-bottom: 2px solid $primary-color-border;
+  h1 {
+    font-family: $montserrat;
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: $primary-color-text;
+    line-height: 12.5rem;
+    letter-spacing: -3px;
+  }
+}
+

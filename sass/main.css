@@ -1,0 +1,26 @@
+html {
+  font-size: 62.5%;
+}
+html body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+html body h1 {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #579C87;
+  border-bottom: 2px solid #A1C181;
+}
+header h1 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #FDCB46;
+  line-height: 12.5rem;
+  letter-spacing: -3px;
+}
+
+/*# sourceMappingURL=main.css.map */
