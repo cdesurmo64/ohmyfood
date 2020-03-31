@@ -1,5 +1,5 @@
 main {
-  padding: 35px;
+  padding: 35px 35px 80px;
 
 
   .menu {
@@ -20,6 +20,7 @@ main {
 
       h2 {
         margin-bottom: 20px;
+        padding: 0 5px;
       }
 
       &--note {
@@ -45,9 +46,10 @@ main {
 
         h2 {
           font-family: $croissant;
-          font-size: 2.6rem;
+          font-size: 2.3rem;
           font-weight: 500;
-          color: $menu-chic-name-color;
+          @include text-color-gradient(-80deg, $menu-chic-gradient-color1, 15%, $menu-chic-gradient-color2, 55%, $menu-chic-gradient-color3, 70%);
+          color: $menu-chic-name-color; //In case the gradient color properties don't work in the browser
         }
 
         span {
@@ -63,9 +65,10 @@ main {
 
         h2 {
           font-family: $dancing;
-          font-size: 4.3rem;
+          font-size: 3.2rem;
           font-weight: 500;
-          color: $menu-delight-name-color;
+          @include text-color-gradient(-70deg, $menu-delight-gradient-color1, 20%, $menu-delight-gradient-color2, 55%, $menu-delight-gradient-color3, 90%);
+          color: $menu-delight-name-color; //In case the gradient color properties don't work in the browser
         }
 
         span {
@@ -81,9 +84,10 @@ main {
 
         h2 {
           font-family: $kaushan;
-          font-size: 3.8rem;
+          font-size: 3.3rem;
           font-weight: 500;
-          color: $menu-taste-name-color;
+          @include text-color-gradient(-70deg, $menu-taste-gradient-color1, 20%, $menu-taste-gradient-color2, 50%, $menu-taste-gradient-color3, 75%);
+          color: $menu-taste-name-color; //In case the gradient color properties don't work in the browser
         }
 
         span {
@@ -96,46 +100,43 @@ main {
     }
   }
 
-  .soon {
+  .soon__anim {
+    background-color: $primary-color;
+    color: $primary-color-text;
+    border-radius: 15px;
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 50px 20px;
+    line-height: 5.8rem;
     text-align: center;
-    margin: 10px auto;
-
-    .soon__anim {
-      background-color: $primary-color;
-      color: $primary-color-text;
-      border-radius: 15px;
-      font-family: $montserrat;
-      font-size: 2.5rem;
-      margin: 60px 90px;
-      line-height: 5.8rem;
-    }
-
   }
 }
 
 
-/************************TABLETS OVERRIDE STYLE************************/
-//@media (min-width: 768px) {
-//
-//  main {
-//
-//    .menu {
-//      display: flex;
-//      flex-wrap: wrap;
-//      justify-content: space-between;
-//      align-items: center;
-//      align-content: space-between;
-//
-//
-//      &__prev {
-//        width: 455px;
-//      }
-//    }
-//  }
-//
-//}
 
-/************************DESKTOPS OVERRIDE STYLE************************/
-//@media (min-width: 992px) {
+////************************TABLETS OVERRIDE STYLE************************/
+////@media (min-width: 768px) {
+////
+////  main {
+////
+////    .menu {
+////      display: flex;
+////      flex-wrap: wrap;
+////      justify-content: space-between;
+////      align-items: center;
+////      align-content: space-between;
+////
+////
+////      &__prev {
+////        width: 455px;
+////      }
+////    }
+////  }
+////
+////}
 //
-//}
+///************************DESKTOPS OVERRIDE STYLE************************/
+////@media (min-width: 992px) {
+////
+////}
