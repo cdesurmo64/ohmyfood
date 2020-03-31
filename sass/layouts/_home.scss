@@ -107,7 +107,7 @@ main {
     color: $primary-color-text;
     border-radius: 13px;
     font-family: $montserrat;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.5rem;
     margin: 50px 20px;
     line-height: 5.8rem;
@@ -127,7 +127,7 @@ main {
     .menu {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-evenly;
 
 
       &__prev {
@@ -144,7 +144,29 @@ main {
   }
 }
 
-///************************DESKTOPS OVERRIDE STYLE************************/
-////@media (min-width: 992px) {
-////
-////}
+
+//DESKTOP OVERRIDE STYLE
+@media (min-width: 992px) {
+  main {
+    padding: 50px 25px 125px;
+
+    .menu {
+      width: 950px;
+
+
+      &__prev {
+        flex-basis: 35%;
+        height: 470px;
+        margin-bottom: 75px;
+      }
+    }
+
+
+    .soon__anim {
+      margin: 0 auto;
+      width: 335px;
+      font-size: 3rem;
+      font-weight: 500;
+    }
+  }
+}

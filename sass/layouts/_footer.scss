@@ -15,7 +15,7 @@ footer {
 
   .legal, .contact {
     font-family: $montserrat;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
     flex-grow: 1;
 
@@ -42,5 +42,15 @@ footer {
   footer {
     padding: 20px;
   }
+}
 
+
+//DESKTOP OVERRIDE STYLE
+
+@media (min-width: 768px) {
+  footer {
+    .legal, .contact {
+      font-size: 2.4rem;
+    }
+  }
 }
