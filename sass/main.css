@@ -166,10 +166,9 @@ main .soon__anim {
     margin-bottom: 75px;
   }
   main .soon__anim {
-    margin: 0 auto;
-    width: 335px;
-    font-size: 3rem;
-    font-weight: 500;
+    width: 390px;
+    font-size: 3.3rem;
+    line-height: 6.2rem;
   }
 }
 footer {
@@ -210,7 +209,7 @@ footer .contact {
 }
 @media (min-width: 992px) {
   footer .legal, footer .contact {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
   }
 }
 
