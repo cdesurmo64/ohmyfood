@@ -32,14 +32,14 @@ header h1 a {
 }
 
 main {
-  padding: 35px 45px 65px;
+  padding: 35px 45px 55px;
 }
 main .menu {
   margin: 0 auto;
 }
 main .menu__prev {
   height: 400px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   box-shadow: 0 0 15px #CCCCCC;
   display: flex;
 }
@@ -57,7 +57,7 @@ main .menu__prev--note {
 main .menu__prev--note h2 {
   font-family: "Devonshire", cursive;
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: #3C1218;
 }
 main .menu__prev--note span {
@@ -123,13 +123,13 @@ main .menu__prev--taste span {
 main .soon__anim {
   background-color: #579C87;
   color: #FDCB46;
-  border-radius: 13px;
+  border-radius: 11px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
   margin: 50px auto;
   max-width: 286px;
-  line-height: 5rem;
+  line-height: 5.5rem;
   text-align: center;
 }
 
@@ -144,11 +144,13 @@ main .soon__anim {
   }
   main .menu__prev {
     flex-basis: 40%;
-    height: 400px;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
   }
   main .soon__anim {
-    margin: 0 190px;
+    margin: 0 auto;
+    max-width: none;
+    width: 320px;
+    font-size: 2.7rem;
   }
 }
 @media (min-width: 992px) {
@@ -200,10 +202,13 @@ footer .contact {
 
 @media (min-width: 768px) {
   footer {
-    padding: 20px;
+    padding: 18px;
+  }
+  footer .legal, footer .contact {
+    font-size: 2.4rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   footer .legal, footer .contact {
     font-size: 2.4rem;
   }
