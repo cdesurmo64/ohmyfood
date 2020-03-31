@@ -1,0 +1,6 @@
+// To make a color gradient from 3 colors for texts
+@mixin text-color-gradient($angle, $color1, $amount1, $color2, $amount2, $color3, $amount3){
+      background: -webkit-linear-gradient($angle, $color1 $amount1, $color2 $amount2, $color3 $amount3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}

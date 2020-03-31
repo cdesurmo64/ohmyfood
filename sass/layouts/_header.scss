@@ -7,8 +7,10 @@ header {
     font-family: $montserrat;
     font-size: 4.8rem;
     font-weight: 700;
-    color: $primary-color-text;
     letter-spacing: -3px;
+    a {
+      color: $primary-color-text;
+    }
   }
 }
 

@@ -25,12 +25,14 @@ header h1 {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 4.8rem;
   font-weight: 700;
-  color: #FDCB46;
   letter-spacing: -3px;
+}
+header h1 a {
+  color: #FDCB46;
 }
 
 main {
-  padding: 35px;
+  padding: 35px 35px 80px;
 }
 main .menu {
   margin: 0 auto;
@@ -48,6 +50,7 @@ main .menu__prev a {
 }
 main .menu__prev h2 {
   margin-bottom: 20px;
+  padding: 0 5px;
 }
 main .menu__prev--note {
   background-color: #FCDFDB;
@@ -69,8 +72,11 @@ main .menu__prev--chic {
 }
 main .menu__prev--chic h2 {
   font-family: "Croissant One", cursive;
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   font-weight: 500;
+  background: -webkit-linear-gradient(-80deg, #D8852E 15%, #AC6BAF 55%, #905BFD 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: #D8852E;
 }
 main .menu__prev--chic span {
@@ -84,8 +90,11 @@ main .menu__prev--delight {
 }
 main .menu__prev--delight h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 4.3rem;
+  font-size: 3.2rem;
   font-weight: 500;
+  background: -webkit-linear-gradient(-70deg, #0431DF 20%, #076BF2 55%, #0887FB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: #0887FB;
 }
 main .menu__prev--delight span {
@@ -99,8 +108,11 @@ main .menu__prev--taste {
 }
 main .menu__prev--taste h2 {
   font-family: "Kaushan Script", cursive;
-  font-size: 3.8rem;
+  font-size: 3.3rem;
   font-weight: 500;
+  background: -webkit-linear-gradient(-70deg, #3D9339 20%, #8BD363 50%, #BFFF7E 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: #72BF56;
 }
 main .menu__prev--taste span {
@@ -109,44 +121,34 @@ main .menu__prev--taste span {
   font-weight: 500;
   color: #72BF56;
 }
-main .soon {
-  text-align: center;
-  margin: 10px auto;
-}
-main .soon .soon__anim {
+main .soon__anim {
   background-color: #579C87;
   color: #FDCB46;
   border-radius: 15px;
   font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 600;
   font-size: 2.5rem;
-  margin: 60px 90px;
+  margin: 50px 20px;
   line-height: 5.8rem;
+  text-align: center;
 }
 
-/************************TABLETS OVERRIDE STYLE************************/
-@media (min-width: 768px) {
-  main .menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
-  }
-  main .menu__prev {
-    width: 455px;
-  }
-}
-/************************DESKTOPS OVERRIDE STYLE************************/
 footer {
   text-align: center;
   background-color: #579C87;
   border-top: 2px solid #A1C181;
-  padding: 20px 15px;
+  padding: 20px 10px;
   display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 footer .legal, footer .contact {
   font-family: "Montserrat", "Arial", sans-serif;
-  font-size: 2.2rem;
+  font-weight: 600;
+  font-size: 2rem;
   flex-grow: 1;
 }
 footer .legal a, footer .contact a {
