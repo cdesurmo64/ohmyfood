@@ -124,7 +124,7 @@ main .menu__prev--taste span {
 main .soon__anim {
   background-color: #579C87;
   color: #FDCB46;
-  border-radius: 15px;
+  border-radius: 13px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
@@ -133,6 +133,24 @@ main .soon__anim {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  main {
+    padding: 50px 35px 115px;
+  }
+  main .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  main .menu__prev {
+    flex-basis: 40%;
+    height: 400px;
+    margin-bottom: 60px;
+  }
+  main .soon__anim {
+    margin: 0 190px;
+  }
+}
 footer {
   text-align: center;
   background-color: #579C87;
@@ -159,6 +177,12 @@ footer .legal {
 }
 footer .contact {
   text-align: right;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

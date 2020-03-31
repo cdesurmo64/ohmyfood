@@ -1,3 +1,5 @@
+//MOBILE STYLE
+
 main {
   padding: 35px 35px 80px;
 
@@ -49,7 +51,7 @@ main {
           font-size: 2.3rem;
           font-weight: 500;
           @include text-color-gradient(-80deg, $menu-chic-gradient-color1, 15%, $menu-chic-gradient-color2, 55%, $menu-chic-gradient-color3, 70%);
-          color: $menu-chic-name-color; //In case the gradient color properties don't work in the browser
+          color: $menu-chic-name-color; //In case the gradient color properties used don't work in the browser
         }
 
         span {
@@ -68,7 +70,7 @@ main {
           font-size: 3.2rem;
           font-weight: 500;
           @include text-color-gradient(-70deg, $menu-delight-gradient-color1, 20%, $menu-delight-gradient-color2, 55%, $menu-delight-gradient-color3, 90%);
-          color: $menu-delight-name-color; //In case the gradient color properties don't work in the browser
+          color: $menu-delight-name-color; //In case the gradient color properties used don't work in the browser
         }
 
         span {
@@ -87,7 +89,7 @@ main {
           font-size: 3.3rem;
           font-weight: 500;
           @include text-color-gradient(-70deg, $menu-taste-gradient-color1, 20%, $menu-taste-gradient-color2, 50%, $menu-taste-gradient-color3, 75%);
-          color: $menu-taste-name-color; //In case the gradient color properties don't work in the browser
+          color: $menu-taste-name-color; //In case the gradient color properties used don't work in the browser
         }
 
         span {
@@ -103,7 +105,7 @@ main {
   .soon__anim {
     background-color: $primary-color;
     color: $primary-color-text;
-    border-radius: 15px;
+    border-radius: 13px;
     font-family: $montserrat;
     font-weight: 600;
     font-size: 2.5rem;
@@ -115,27 +117,33 @@ main {
 
 
 
-////************************TABLETS OVERRIDE STYLE************************/
-////@media (min-width: 768px) {
-////
-////  main {
-////
-////    .menu {
-////      display: flex;
-////      flex-wrap: wrap;
-////      justify-content: space-between;
-////      align-items: center;
-////      align-content: space-between;
-////
-////
-////      &__prev {
-////        width: 455px;
-////      }
-////    }
-////  }
-////
-////}
-//
+//TABLETS OVERRIDE STYLE
+
+@media (min-width: 768px) {
+
+  main {
+    padding: 50px 35px 115px;
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+
+      &__prev {
+        flex-basis: 40%;
+        height: 400px;
+        margin-bottom: 60px;
+      }
+    }
+
+
+    .soon__anim {
+      margin: 0 190px;
+    }
+  }
+}
+
 ///************************DESKTOPS OVERRIDE STYLE************************/
 ////@media (min-width: 992px) {
 ////
