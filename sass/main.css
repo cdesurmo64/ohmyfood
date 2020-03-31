@@ -32,13 +32,13 @@ header h1 a {
 }
 
 main {
-  padding: 35px 35px 80px;
+  padding: 35px 45px 65px;
 }
 main .menu {
   margin: 0 auto;
 }
 main .menu__prev {
-  height: 550px;
+  height: 400px;
   margin-bottom: 30px;
   box-shadow: 0 0 15px #CCCCCC;
   display: flex;
@@ -46,7 +46,6 @@ main .menu__prev {
 main .menu__prev a {
   margin: auto;
   text-align: center;
-  font-size: 3rem;
 }
 main .menu__prev h2 {
   margin-bottom: 20px;
@@ -58,12 +57,12 @@ main .menu__prev--note {
 main .menu__prev--note h2 {
   font-family: "Devonshire", cursive;
   font-weight: 500;
-  font-size: 3.3rem;
+  font-size: 3rem;
   color: #3C1218;
 }
 main .menu__prev--note span {
   font-family: "Itim", cursive;
-  font-size: 4.6rem;
+  font-size: 4.1rem;
   font-style: italic;
   color: #3C1218;
 }
@@ -72,7 +71,7 @@ main .menu__prev--chic {
 }
 main .menu__prev--chic h2 {
   font-family: "Croissant One", cursive;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 500;
   background: -webkit-linear-gradient(-80deg, #D8852E 15%, #AC6BAF 55%, #905BFD 70%);
   -webkit-background-clip: text;
@@ -81,7 +80,7 @@ main .menu__prev--chic h2 {
 }
 main .menu__prev--chic span {
   font-family: "Times New Roman";
-  font-size: 4.2rem;
+  font-size: 4rem;
   font-weight: 600;
   color: #D8852E;
 }
@@ -90,7 +89,7 @@ main .menu__prev--delight {
 }
 main .menu__prev--delight h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 3.2rem;
+  font-size: 2.9rem;
   font-weight: 500;
   background: -webkit-linear-gradient(-70deg, #0431DF 20%, #076BF2 55%, #0887FB 90%);
   -webkit-background-clip: text;
@@ -99,7 +98,7 @@ main .menu__prev--delight h2 {
 }
 main .menu__prev--delight span {
   font-family: "Caveat", cursive;
-  font-size: 5.3rem;
+  font-size: 4.6rem;
   font-weight: 500;
   color: #0887FB;
 }
@@ -108,7 +107,7 @@ main .menu__prev--taste {
 }
 main .menu__prev--taste h2 {
   font-family: "Kaushan Script", cursive;
-  font-size: 3.3rem;
+  font-size: 2.8rem;
   font-weight: 500;
   background: -webkit-linear-gradient(-70deg, #3D9339 20%, #8BD363 50%, #BFFF7E 75%);
   -webkit-background-clip: text;
@@ -117,7 +116,7 @@ main .menu__prev--taste h2 {
 }
 main .menu__prev--taste span {
   font-family: "Caveat", cursive;
-  font-size: 5.3rem;
+  font-size: 4.6rem;
   font-weight: 500;
   color: #72BF56;
 }
@@ -128,8 +127,9 @@ main .soon__anim {
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
-  margin: 50px 20px;
-  line-height: 5.8rem;
+  margin: 50px auto;
+  max-width: 286px;
+  line-height: 5rem;
   text-align: center;
 }
 
@@ -174,7 +174,7 @@ footer {
   text-align: center;
   background-color: #579C87;
   border-top: 2px solid #A1C181;
-  padding: 20px 10px;
+  padding: 18px 11px;
   display: flex;
   position: fixed;
   left: 0;
@@ -185,7 +185,7 @@ footer {
 footer .legal, footer .contact {
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.8rem;
   flex-grow: 1;
 }
 footer .legal a, footer .contact a {

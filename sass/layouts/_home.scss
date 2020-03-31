@@ -1,7 +1,7 @@
 //MOBILE STYLE
 
 main {
-  padding: 35px 35px 80px;
+  padding: 35px 45px 55px;
 
 
   .menu {
@@ -9,15 +9,14 @@ main {
 
 
     &__prev {
-      height: 550px;
-      margin-bottom: 30px;
+      height: 400px;
+      margin-bottom: 35px;
       box-shadow: 0 0 15px $menu-prev-shadow-color;
       display: flex;
 
       a {
         margin: auto;
         text-align: center;
-        font-size: 3rem;
       }
 
       h2 {
@@ -31,13 +30,13 @@ main {
         h2 {
           font-family: $devonshire;
           font-weight: 500;
-          font-size: 3.3rem;
+          font-size: 2.8rem;
           color: $menu-note-name-color;
         }
 
         span {
           font-family: $itim;
-          font-size: 4.6rem;
+          font-size: 4.1rem;
           font-style: italic;
           color: $menu-note-name-color;
         }
@@ -48,7 +47,7 @@ main {
 
         h2 {
           font-family: $croissant;
-          font-size: 2.3rem;
+          font-size: 2rem;
           font-weight: 500;
           @include text-color-gradient(-80deg, $menu-chic-gradient-color1, 15%, $menu-chic-gradient-color2, 55%, $menu-chic-gradient-color3, 70%);
           color: $menu-chic-name-color; //In case the gradient color properties used don't work in the browser
@@ -56,7 +55,7 @@ main {
 
         span {
           font-family: $times;
-          font-size: 4.2rem;
+          font-size: 4rem;
           font-weight: 600;
           color: $menu-chic-name-color;
         }
@@ -67,7 +66,7 @@ main {
 
         h2 {
           font-family: $dancing;
-          font-size: 3.2rem;
+          font-size: 2.9rem;
           font-weight: 500;
           @include text-color-gradient(-70deg, $menu-delight-gradient-color1, 20%, $menu-delight-gradient-color2, 55%, $menu-delight-gradient-color3, 90%);
           color: $menu-delight-name-color; //In case the gradient color properties used don't work in the browser
@@ -75,7 +74,7 @@ main {
 
         span {
           font-family: $caveat;
-          font-size: 5.3rem;
+          font-size: 4.6rem;
           font-weight: 500;
           color: $menu-delight-name-color;
         }
@@ -86,7 +85,7 @@ main {
 
         h2 {
           font-family: $kaushan;
-          font-size: 3.3rem;
+          font-size: 2.8rem;
           font-weight: 500;
           @include text-color-gradient(-70deg, $menu-taste-gradient-color1, 20%, $menu-taste-gradient-color2, 50%, $menu-taste-gradient-color3, 75%);
           color: $menu-taste-name-color; //In case the gradient color properties used don't work in the browser
@@ -94,7 +93,7 @@ main {
 
         span {
           font-family: $caveat;
-          font-size: 5.3rem;
+          font-size: 4.6rem;
           font-weight: 500;
           color: $menu-taste-name-color;
         }
@@ -109,8 +108,9 @@ main {
     font-family: $montserrat;
     font-weight: 500;
     font-size: 2.5rem;
-    margin: 50px 20px;
-    line-height: 5.8rem;
+    margin: 50px auto;
+    max-width: 286px;
+    line-height: 5rem;
     text-align: center;
   }
 }
