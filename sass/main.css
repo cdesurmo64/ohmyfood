@@ -54,6 +54,9 @@ main .menu__prev h2 {
 main .menu__prev--note {
   background-color: #FCDFDB;
 }
+main .menu__prev--note img {
+  width: 4rem;
+}
 main .menu__prev--note h2 {
   font-family: "Devonshire", cursive;
   font-weight: 500;

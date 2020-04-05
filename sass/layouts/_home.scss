@@ -27,6 +27,10 @@ main {
       &--note {
         background-color: $menu-note-box-color;
 
+        img {
+          width: 4rem;
+        }
+
         h2 {
           font-family: $devonshire;
           font-weight: 500;
