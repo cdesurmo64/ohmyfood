@@ -12,11 +12,15 @@ main {
       height: 400px;
       margin-bottom: 35px;
       box-shadow: 0 0 15px $menu-prev-shadow-color;
-      display: flex;
 
       a {
-        margin: auto;
         text-align: center;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
       }
 
       h2 {
