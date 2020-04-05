@@ -171,6 +171,15 @@ main .soon__anim {
     height: 470px;
     margin-bottom: 75px;
   }
+  main .menu__prev a {
+    transition: all 400ms;
+    -webkit-font-smoothing: antialiased;
+    backface-visibility: hidden;
+  }
+  main .menu__prev a:hover {
+    opacity: 0.7;
+    transform: scale(1.29) translate3d(0, 0, 0);
+  }
   main .soon__anim {
     width: 390px;
     font-size: 3.3rem;
