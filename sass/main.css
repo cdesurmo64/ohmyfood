@@ -31,6 +31,14 @@ header h1 a {
   color: #FDCB46;
 }
 
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 main {
   padding: 35px 45px 55px;
 }
@@ -126,7 +134,7 @@ main .menu__prev--taste span {
   font-weight: 500;
   color: #72BF56;
 }
-main .soon__anim {
+main .soon {
   background-color: #579C87;
   color: #FDCB46;
   border-radius: 11px;
@@ -137,6 +145,18 @@ main .soon__anim {
   max-width: 286px;
   line-height: 5.5rem;
   text-align: center;
+}
+main .soon__dot {
+  animation: appearance 1000ms ease-out infinite;
+}
+main .soon__dot--1 {
+  animation-delay: 333.3333333333ms;
+}
+main .soon__dot--2 {
+  animation-delay: 666.6666666667ms;
+}
+main .soon__dot--3 {
+  animation-delay: 1000ms;
 }
 
 @media (min-width: 768px) {
@@ -152,7 +172,7 @@ main .soon__anim {
     flex-basis: 40%;
     margin-bottom: 55px;
   }
-  main .soon__anim {
+  main .soon {
     margin: 0 auto;
     max-width: none;
     width: 320px;
@@ -180,7 +200,7 @@ main .soon__anim {
     opacity: 0.7;
     transform: scale(1.29) translate3d(0, 0, 0);
   }
-  main .soon__anim {
+  main .soon {
     width: 390px;
     font-size: 3.3rem;
     line-height: 6.2rem;

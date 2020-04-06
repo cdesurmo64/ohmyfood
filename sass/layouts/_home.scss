@@ -1,5 +1,16 @@
 //MOBILE STYLE
 
+//Keyframes
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+//Style
 main {
   padding: 35px 45px 55px;
 
@@ -108,7 +119,7 @@ main {
     }
   }
 
-  .soon__anim {
+  .soon {
     background-color: $primary-color;
     color: $primary-color-text;
     border-radius: 11px;
@@ -119,6 +130,16 @@ main {
     max-width: 286px;
     line-height: 5.5rem;
     text-align: center;
+
+    &__dot {
+      animation: appearance $dot-dur ease-out infinite;
+
+      @for $i from 1 through 3 {
+        &--#{$i} {
+          animation-delay: $dot-delay * $i;
+        }
+      }
+    }
   }
 }
 
@@ -144,7 +165,7 @@ main {
     }
 
 
-    .soon__anim {
+    .soon {
       margin: 0 auto;
       max-width: none;
       width: 320px;
@@ -184,7 +205,7 @@ main {
     }
 
 
-    .soon__anim {
+    .soon {
       width: 390px;
       font-size: 3.3rem;
       line-height: 6.2rem;
