@@ -15,19 +15,19 @@ html body a {
   text-decoration: none;
 }
 
-header {
+.page-header {
   text-align: center;
   background-color: #579C87;
   border-bottom: 2px solid #A1C181;
   padding: 38px 0;
 }
-header h1 {
+.page-header h1, .page-header .h1 {
   font-family: "Montserrat", "Arial", sans-serif;
   font-size: 4.8rem;
   font-weight: 700;
   letter-spacing: -3px;
 }
-header h1 a {
+.page-header h1 a, .page-header .h1 a {
   color: #FDCB46;
 }
 
@@ -206,7 +206,7 @@ main .soon__dot--3 {
     line-height: 6.2rem;
   }
 }
-footer {
+.page-footer {
   text-align: center;
   background-color: #579C87;
   border-top: 2px solid #A1C181;
@@ -218,27 +218,27 @@ footer {
   width: 100%;
   box-sizing: border-box;
 }
-footer .legal, footer .contact {
+.page-footer .legal, .page-footer .contact {
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
   flex-grow: 1;
 }
-footer .legal a, footer .contact a {
+.page-footer .legal a, .page-footer .contact a {
   color: #FDCB46;
 }
-footer .legal {
+.page-footer .legal {
   text-align: left;
 }
-footer .contact {
+.page-footer .contact {
   text-align: right;
 }
 
 @media (min-width: 768px) {
-  footer {
+  .page-footer {
     padding: 18px;
   }
-  footer .legal, footer .contact {
+  .page-footer .legal, .page-footer .contact {
     font-size: 2.4rem;
   }
 }
@@ -263,13 +263,13 @@ footer .contact {
   }
 }
 @media (min-width: 992px) {
-  footer .legal, footer .contact {
+  .page-footer .legal, .page-footer .contact {
     font-size: 2.6rem;
   }
-  footer a {
+  .page-footer a {
     display: inline-block;
   }
-  footer a:hover {
+  .page-footer a:hover {
     animation: wiggle 350ms linear infinite;
   }
 }

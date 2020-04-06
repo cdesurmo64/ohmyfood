@@ -1,6 +1,6 @@
 //MOBILE STYLE
 
-footer {
+.page-footer {
   text-align: center;
   background-color: $primary-color;
   border-top: 2px solid $primary-color-border;
@@ -39,7 +39,7 @@ footer {
 
 @media (min-width: 768px) {
 
-  footer {
+  .page-footer {
     padding: 18px;
 
     .legal, .contact {
@@ -76,7 +76,7 @@ footer {
 //Style
 @media (min-width: 992px) {
 
-  footer {
+  .page-footer {
 
     .legal, .contact {
       font-size: 2.6rem;
