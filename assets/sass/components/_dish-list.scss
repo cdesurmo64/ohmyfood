@@ -1,0 +1,29 @@
+//MOBILE STYLE
+
+.dish-list {
+  list-style-type: none;
+  margin: 2rem 0 5.5rem;
+  padding: 0 2.8rem;
+
+  &__item {
+    margin-bottom: 3rem;
+
+    &__name {
+      margin-bottom: 0.5rem;
+    }
+
+    &__price {
+      font-weight: bold;
+    }
+  }
+
+
+}
+
+//Note menu specific features
+
+.menu__details--note {
+  .dish-list {
+    font-size: 1.8rem;
+  }
+}

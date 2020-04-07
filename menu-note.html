@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Menu : La note enchantée | Ohmyfood</title>
         <!--To load the style sheet-->
-        <link rel="stylesheet" href="./sass/main.css">
+        <link rel="stylesheet" href="./assets/sass/main.css">
         <!--To load the google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Caveat|Croissant+One|Dancing+Script:500|Devonshire|Itim|Kaushan+Script|Montserrat:500,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Caveat%7CCroissant+One%7CDancing+Script:500%7CDevonshire%7CItim%7CKaushan+Script%7CMontserrat:500,700&display=swap" rel="stylesheet">
     </head>
 
 
@@ -16,70 +16,94 @@
             <div class="h1"><a href="home.html">ohmyfood</a></div>
         </header>
 
-        <main id="menu1">
-            <p class="restau-name">La note enchantée</p>
+        <main class="menu">
+            <p class="menu__restau-name">La note enchantée</p>
 
-            <section class="menu-details">
+            <section class="menu__details menu__details--note">
 
-                <header class="menu-header">
-                    <img src="images/menu1-music-note.svg" alt="Note de musique">
+                <header class="menu__details__header">
+                    <img src="assets/images/menu1-music-note.svg" alt="Note de musique">
                     <h1>La note enchantée</h1>
                 </header>
 
-                <article class="starter">
-                    <h2>Prélude</h2>
+                <article class="menu__details__starter">
+                    <div class="menu__details__subtitle">
+                        <div class="bar">
+                            <img src="assets/images/note-left-bar.svg" alt="Trait graphique">
+                        </div>
+                        <h2>Prélude</h2>
+                        <div class="bar">
+                            <img src="assets/images/note-right-bar.svg" alt="Trait graphique">
+                        </div>
+                    </div>
 
-                    <ul class="dishes-list">
-                        <li>
-                            <div class="dish-name">Ravioles de foie gras accompagnés de leur crème à la truffe</div>
-                            <div class="dish-price">98€</div>
+                    <ul class="dish-list">
+                        <li class="dish-list__item">
+                            <div class="dish-list__item__name">Ravioles de foie gras accompagnés de leur crème à la truffe</div>
+                            <div class="dish-list__item__price">98€</div>
                         </li>
-                        <li>
-                            <div class="dish-name">Caviar osciètre sur blini à la farine de blé noir</div>
-                            <div class="dish-price">115€</div>
+                        <li class="dish-list__item">
+                            <div class="dish-list__item__name">Caviar osciètre sur blini à la farine de blé noir</div>
+                            <div class="dish-list__item__price">115€</div>
                         </li>
-                        <li>
-                            <div class="dish-name">Homard et espuma de potiron mariné aux zests d'orange</div>
-                            <div class="dish-price">89€</div>
+                        <li class="dish-list__item">
+                            <div class="dish-list__item__name">Homard et espuma de potiron mariné aux zests d'orange</div>
+                            <div class="dish-list__item__price">89€</div>
                         </li>
-                        <li>
-                            <div class="dish-name">Foie gras de canard cuit entier, confiture de figue et pin toasté</div>
-                            <div class="dish-price">115€</div>
+                        <li class="dish-list__item">
+                            <div class="dish-list__item__name">Foie gras de canard cuit entier, confiture de figue et pin toasté</div>
+                            <div class="dish-list__item__price">115€</div>
                         </li>
                     </ul>
                 </article>
 
-                <article class="main-course">
-                    <h2>Point d'orgue</h2>
+                <article class="menu__details__main-course">
+                    <div class="menu__details__subtitle">
+                        <div class="bar">
+                            <img src="assets/images/note-left-bar.svg" alt="Trait graphique">
+                        </div>
+                        <h2>Point d'orgue</h2>
+                        <div class="bar">
+                            <img src="assets/images/note-right-bar.svg" alt="Trait graphique">
+                        </div>
+                    </div>
 
-                    <ul class="dishes-list">
-                        <li>
-                            <div class="dish-name">Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</div>
-                            <div class="dish-price">102€</div>
+                    <ul class="dish-list">
+                        <li class="dish-list__item">
+                            <div class="dish-list__item__name">Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave</div>
+                            <div class="dish-list__item__price">102€</div>
                         </li>
-                        <li>
-                            <div class="dish-name">Langoustine poêlée, purée de patate douce</div>
-                            <div class="dish-price">205€</div>
+                        <li class="dish-list__item">
+                            <div class="dish-list__item__name">Langoustine poêlée, purée de patate douce</div>
+                            <div class="dish-list__item__price">205€</div>
                         </li>
-                        <li>
-                            <div class="dish-name">Mijoté de queue de bœuf et riz sauvage aux zests de citron</div>
-                            <div class="dish-price">169€</div>
+                        <li class="dish-list__item">
+                            <div class="dish-list__item__name">Mijoté de queue de bœuf et riz sauvage aux zests de citron</div>
+                            <div class="dish-list__item__price">169€</div>
                         </li>
                     </ul>
                 </article>
 
-                <article class="dessert">
-                    <h2>Mouvement final</h2>
+                <article class="menu__details__dessert">
+                    <div class="menu__details__subtitle">
+                        <div class="bar">
+                            <img src="assets/images/note-left-bar.svg" alt="Trait graphique">
+                        </div>
+                        <h2>Mouvement final</h2>
+                        <div class="bar">
+                            <img src="assets/images/note-right-bar.svg" alt="Trait graphique">
+                        </div>
+                    </div>
 
-                    <ul class="dishes-list">
-                        <li>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</li>
-                        <li>Baba au rhum revisité avec son coulis de citron</li>
-                        <li>Tarte au citron meringuée destructurée</li>
+                    <ul class="dish-list">
+                        <li class="dish-list__item">Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</li>
+                        <li class="dish-list__item">Baba au rhum revisité avec son coulis de citron</li>
+                        <li class="dish-list__item">Tarte au citron meringuée destructurée</li>
                     </ul>
                 </article>
 
-                <footer class="menu-footer">
-                    <img src="images/menu1-music-note.svg" alt="Note de musique">
+                <footer class="menu__details__footer">
+                    <img src="assets/images/menu1-music-note.svg" alt="Note de musique">
                     <p>La note enchantée</p>
                 </footer>
             </section>
