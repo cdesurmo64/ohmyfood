@@ -121,7 +121,6 @@
 
         h1 {
           font-size: 3.8rem;
-
         }
 
       }
@@ -135,4 +134,50 @@
 
 @media (min-width: 992px) {
 
+  .menu {
+
+    &__restau-name {
+      font-size: 3.2rem;
+    }
+
+    &__details {
+      box-sizing: border-box;
+      width: 820px;
+      margin: 0 auto;
+      padding: 6rem 7rem;
+
+    }
+
+
+    //Note menu specific features
+    &__details--note {
+
+      header {
+
+        img {
+          width: 6.6rem;
+        }
+
+        h1 {
+          font-size: 4.5rem;
+        }
+      }
+
+      h2 {
+        font-size: 2.6rem;
+      }
+
+      footer {
+        img {
+          width: 3.8rem;
+          padding-right: 0.8rem;
+        }
+
+        p {
+        font-size: 3.7rem;
+        }
+      }
+
+    }
+  }
 }
