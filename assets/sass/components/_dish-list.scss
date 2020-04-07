@@ -1,28 +1,29 @@
 //MOBILE STYLE
+
+//Shared menu style
 .dish-list {
   list-style-type: none;
-  margin: 2rem 0 5.5rem;
-  padding: 0 2.8rem;
+  margin: 20px 0 55px;
+  padding: 0 28px;
 
   &__item {
-    margin-bottom: 3rem;
+    margin-bottom: 30px;
 
     &__name {
-      margin-bottom: 0.5rem;
+      margin-bottom: 5px;
     }
 
     &__price {
       font-weight: bold;
     }
   }
-
-
 }
 
 //Note menu specific features
-
 .menu__details--note {
+
   .dish-list {
+
     font-size: 1.8rem;
   }
 }
@@ -32,12 +33,13 @@
 
 @media (min-width: 768px) {
 
+  //Shared menu style
   .dish-list {
-    margin: 1.3rem 0 5.5rem;
+    margin: 13px 0 55px;
 
     &__item {
       display: flex;
-      margin-bottom: 2rem;
+      margin-bottom: 20px;
 
       &__name {
         flex: 1 0;
@@ -49,11 +51,11 @@
   }
 
   //Note menu specific features
-
   .menu__details--note {
+
     .dish-list {
       font-size: 1.7rem;
-      padding: 0 1.2rem 0 0.5rem; //Adjust visually according to bars length
+      padding: 0 12px 0 5px; //Adjust visually according to bars length
     }
   }
 
@@ -64,11 +66,12 @@
 
 @media (min-width: 992px) {
 
+  //Shared menu style
   .dish-list {
-    margin: 1.5rem 0 6.8rem;
+    margin: 15px 0 68px;
   }
-    //Note menu specific features
 
+  //Note menu specific features
   .menu__details--note {
     .dish-list {
       font-size: 2.1rem;

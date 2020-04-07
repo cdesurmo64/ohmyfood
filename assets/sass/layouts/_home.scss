@@ -18,7 +18,6 @@ main {
   .menus {
     margin: 0 auto;
 
-
     &__prev {
       height: 400px;
       margin-bottom: 35px;
@@ -42,7 +41,7 @@ main {
         background-color: $menu-note-box-color;
 
         img {
-          width: 4rem;
+          width: 40px;
         }
 
         h2 {
@@ -157,13 +156,11 @@ main {
       flex-wrap: wrap;
       justify-content: space-evenly;
 
-
       &__prev {
         flex-basis: 40%;
         margin-bottom: 55px;
       }
     }
-
 
     .soon {
       margin: 0 auto;

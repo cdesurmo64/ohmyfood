@@ -21,14 +21,14 @@ html body a {
 }
 .dish-list {
   list-style-type: none;
-  margin: 2rem 0 5.5rem;
-  padding: 0 2.8rem;
+  margin: 20px 0 55px;
+  padding: 0 28px;
 }
 .dish-list__item {
-  margin-bottom: 3rem;
+  margin-bottom: 30px;
 }
 .dish-list__item__name {
-  margin-bottom: 0.5rem;
+  margin-bottom: 5px;
 }
 .dish-list__item__price {
   font-weight: bold;
@@ -40,11 +40,11 @@ html body a {
 
 @media (min-width: 768px) {
   .dish-list {
-    margin: 1.3rem 0 5.5rem;
+    margin: 13px 0 55px;
   }
   .dish-list__item {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
   }
   .dish-list__item__name {
     flex: 1 0;
@@ -54,12 +54,12 @@ html body a {
 
   .menu__details--note .dish-list {
     font-size: 1.7rem;
-    padding: 0 1.2rem 0 0.5rem;
+    padding: 0 12px 0 5px;
   }
 }
 @media (min-width: 992px) {
   .dish-list {
-    margin: 1.5rem 0 6.8rem;
+    margin: 15px 0 68px;
   }
 
   .menu__details--note .dish-list {
@@ -184,7 +184,7 @@ main .menus__prev--note {
   background-color: #FCDFDB;
 }
 main .menus__prev--note img {
-  width: 4rem;
+  width: 40px;
 }
 main .menus__prev--note h2 {
   font-family: "Devonshire", cursive;
@@ -332,21 +332,21 @@ main .soon__dot--3 {
   font-family: "Arial", sans-serif;
   font-size: 2.6rem;
   font-weight: 700;
-  margin: 0 0 2rem;
+  margin: 0 0 20px;
 }
 .menu__details {
   box-shadow: 0 0 15px #CCCCCC;
-  padding: 2.5rem 0;
+  padding: 25px 0;
 }
 .menu__details__header {
-  padding-bottom: 3rem;
+  padding-bottom: 30px;
 }
 .menu__details__subtitle {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.4rem;
+  padding: 0 14px;
 }
 .menu__details__subtitle .bar {
   flex: 1 1;
@@ -354,13 +354,13 @@ main .soon__dot--3 {
 .menu__details__subtitle .bar img {
   max-width: 100%;
   position: relative;
-  top: 0.2rem;
+  top: 2px;
 }
 .menu__details__subtitle h2 {
   flex: 0 0 30%;
   white-space: nowrap;
   box-sizing: border-box;
-  padding: 0 1rem;
+  padding: 0 10px;
 }
 .menu__details--note {
   background-color: #FCDFDB;
@@ -368,7 +368,7 @@ main .soon__dot--3 {
   color: #3C1218;
 }
 .menu__details--note header img {
-  width: 4rem;
+  width: 40px;
 }
 .menu__details--note header h1 {
   font-family: "Devonshire", cursive;
@@ -383,9 +383,9 @@ main .soon__dot--3 {
   justify-content: center;
 }
 .menu__details--note footer img {
-  width: 3rem;
-  padding-right: 0.7rem;
-  padding-bottom: 0.5rem;
+  width: 30px;
+  padding-right: 7px;
+  padding-bottom: 5px;
 }
 .menu__details--note footer p {
   font-family: "Devonshire", cursive;
@@ -396,19 +396,19 @@ main .soon__dot--3 {
 
 @media (min-width: 768px) {
   .menu {
-    padding: 4.5rem 7rem 13rem;
+    padding: 45px 70px 130px;
   }
   .menu__restau-name {
     font-size: 3rem;
   }
   .menu__details {
-    padding: 5rem 5rem;
+    padding: 50px 50px;
   }
   .menu__details__subtitle {
     padding: 0 0;
   }
   .menu__details--note header img {
-    width: 5.5rem;
+    width: 55px;
   }
   .menu__details--note header h1 {
     font-size: 3.8rem;
@@ -422,10 +422,10 @@ main .soon__dot--3 {
     box-sizing: border-box;
     width: 820px;
     margin: 0 auto;
-    padding: 6rem 7rem;
+    padding: 60px 70px;
   }
   .menu__details--note header img {
-    width: 6.6rem;
+    width: 66px;
   }
   .menu__details--note header h1 {
     font-size: 4.5rem;
@@ -434,8 +434,8 @@ main .soon__dot--3 {
     font-size: 2.6rem;
   }
   .menu__details--note footer img {
-    width: 3.8rem;
-    padding-right: 0.8rem;
+    width: 38px;
+    padding-right: 8px;
   }
   .menu__details--note footer p {
     font-size: 3.7rem;

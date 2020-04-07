@@ -1,5 +1,6 @@
 //MOBILE STYLE
 
+//Shared menu style
 .menu {
   padding: 35px 30px 100px;
   text-align: center;
@@ -8,15 +9,15 @@
     font-family: $sans-serif;
     font-size: 2.6rem;
     font-weight: 700;
-    margin: 0 0 2rem;
+    margin: 0 0 20px;
   }
 
   &__details {
     box-shadow: 0 0 15px $menu-prev-shadow-color;
-    padding: 2.5rem 0;
+    padding: 25px 0;
 
     &__header {
-      padding-bottom: 3rem;
+      padding-bottom: 30px;
     }
 
     &__subtitle {
@@ -24,7 +25,7 @@
       flex-wrap: nowrap;
       justify-content: space-between;
       align-items: center;
-      padding: 0 1.4rem;
+      padding: 0 14px;
 
       .bar {
         flex: 1 1;
@@ -32,7 +33,7 @@
         img {
           max-width: 100%;
           position: relative;
-          top: 0.2rem;
+          top: 2px;
         }
       }
 
@@ -40,10 +41,9 @@
         flex: 0 0 30%;
         white-space: nowrap; //To avoid having the title on two lines
         box-sizing: border-box;
-        padding: 0 1rem;
+        padding: 0 10px;
       }
     }
-
   }
 
   //Note menu specific features
@@ -55,7 +55,7 @@
 
     header {
       img {
-        width: 4rem;
+        width: 40px;
       }
 
       h1 {
@@ -74,9 +74,9 @@
       justify-content: center;
 
       img {
-        width: 3rem;
-        padding-right: 0.7rem;
-        padding-bottom: 0.5rem;
+        width: 30px;
+        padding-right: 7px;
+        padding-bottom: 5px;
       }
 
       p {
@@ -85,7 +85,6 @@
         font-size: 3rem;
         margin: 0;
       }
-
     }
   }
 }
@@ -94,20 +93,21 @@
 //TABLET OVERRIDE STYLE
 
 @media (min-width: 768px) {
+
+  //Shared menu style
   .menu {
-    padding: 4.5rem 7rem 13rem;
+    padding: 45px 70px 130px;
 
     &__restau-name {
       font-size: 3rem;
     }
 
     &__details {
-      padding: 5rem 5rem;
+      padding: 50px 50px;
 
       &__subtitle {
         padding: 0 0;
       }
-
     }
 
     //Note menu specific features
@@ -116,7 +116,7 @@
       header {
 
         img {
-          width: 5.5rem;
+          width: 55px;
         }
 
         h1 {
@@ -134,6 +134,7 @@
 
 @media (min-width: 992px) {
 
+  //Shared menu style
   .menu {
 
     &__restau-name {
@@ -144,7 +145,7 @@
       box-sizing: border-box;
       width: 820px;
       margin: 0 auto;
-      padding: 6rem 7rem;
+      padding: 60px 70px;
 
     }
 
@@ -155,7 +156,7 @@
       header {
 
         img {
-          width: 6.6rem;
+          width: 66px;
         }
 
         h1 {
@@ -168,16 +169,16 @@
       }
 
       footer {
+
         img {
-          width: 3.8rem;
-          padding-right: 0.8rem;
+          width: 38px;
+          padding-right: 8px;
         }
 
         p {
         font-size: 3.7rem;
         }
       }
-
     }
   }
 }
