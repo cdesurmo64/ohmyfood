@@ -38,6 +38,25 @@ html body a {
   font-size: 1.8rem;
 }
 
+@media (min-width: 768px) {
+  .dish-list {
+    margin: 1.3rem 0 5.5rem;
+  }
+  .dish-list__item {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  .dish-list__item__name {
+    flex: 1 0;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .menu__details--note .dish-list {
+    font-size: 1.7rem;
+    padding: 0 1.2rem 0 0.5rem;
+  }
+}
 .page-header {
   text-align: center;
   background-color: #579C87;
@@ -329,7 +348,7 @@ main .soon__dot--3 {
   top: 0.2rem;
 }
 .menu__details__subtitle h2 {
-  flex: 0 0 45%;
+  flex: 0 0 30%;
   white-space: nowrap;
   box-sizing: border-box;
   padding: 0 1rem;
@@ -364,6 +383,27 @@ main .soon__dot--3 {
   font-weight: 500;
   font-size: 3rem;
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    padding: 4.5rem 7rem 13rem;
+  }
+  .menu__restau-name {
+    font-size: 3rem;
+  }
+  .menu__details {
+    padding: 5rem 5rem;
+  }
+  .menu__details__subtitle {
+    padding: 0 0;
+  }
+  .menu__details--note header img {
+    width: 5.5rem;
+  }
+  .menu__details--note header h1 {
+    font-size: 3.8rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

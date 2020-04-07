@@ -1,5 +1,4 @@
 //MOBILE STYLE
-
 .dish-list {
   list-style-type: none;
   margin: 2rem 0 5.5rem;
@@ -26,4 +25,43 @@
   .dish-list {
     font-size: 1.8rem;
   }
+}
+
+
+//TABLET OVERRIDE STYLE
+
+@media (min-width: 768px) {
+
+  .dish-list {
+    margin: 1.3rem 0 5.5rem;
+
+    &__item {
+      display: flex;
+      margin-bottom: 2rem;
+
+      &__name {
+        flex: 1 0;
+        text-align: left;
+        margin-bottom: 0;
+      }
+
+    }
+  }
+
+  //Note menu specific features
+
+  .menu__details--note {
+    .dish-list {
+      font-size: 1.7rem;
+      padding: 0 1.2rem 0 0.5rem; //Adjust visually according to bars length
+    }
+  }
+
+}
+
+
+//DESKTOP OVERRIDE STYLE
+
+@media (min-width: 992px) {
+
 }

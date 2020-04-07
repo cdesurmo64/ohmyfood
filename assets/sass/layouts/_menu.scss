@@ -89,3 +89,50 @@
     }
   }
 }
+
+
+//TABLET OVERRIDE STYLE
+
+@media (min-width: 768px) {
+  .menu {
+    padding: 4.5rem 7rem 13rem;
+
+    &__restau-name {
+      font-size: 3rem;
+    }
+
+    &__details {
+      padding: 5rem 5rem;
+
+      &__subtitle {
+        padding: 0 0;
+      }
+
+    }
+
+    //Note menu specific features
+    &__details--note {
+
+      header {
+
+        img {
+          width: 5.5rem;
+        }
+
+        h1 {
+          font-size: 3.8rem;
+
+        }
+
+      }
+
+    }
+  }
+}
+
+
+//DESKTOP OVERRIDE STYLE
+
+@media (min-width: 992px) {
+
+}
