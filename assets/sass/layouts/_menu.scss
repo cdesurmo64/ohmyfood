@@ -189,16 +189,33 @@
     }
 
     //Chic menu specific features
-    //&__details--chic {
-    //
-    //  &__subtitle {
-    //    margin: 0 -45px;
-    //
-    //    h2 {
-    //      flex: 0 0 30%;
-    //    }
-    //  }
-    //}
+    &__details--chic {
+      padding: 64px 34px;
+
+      header {
+        padding-bottom: 64px;
+
+        h1 {
+          font-size: 3.3rem;
+        }
+      }
+
+      &__subtitle {
+        margin: 0 -13px;
+
+        img {
+          top: 1.4px;
+        }
+
+        h2 {
+          flex: 0 0 42%;
+          white-space: nowrap; //To avoid having the title on two lines
+          font-size: 2.0rem;
+          letter-spacing: 0.05rem;
+          padding: 0 4px;
+        }
+      }
+    }
   }
 }
 

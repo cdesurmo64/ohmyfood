@@ -50,7 +50,6 @@
 
   //Shared menu style
   .dish-list {
-    margin: 13px 0 55px;
 
     &__item {
       display: flex;
@@ -69,10 +68,28 @@
 
     .dish-list {
       font-size: 1.7rem;
+      margin: 13px 0 55px;
       padding: 0 12px 0 5px; //Adjust visually according to bars length
     }
   }
 
+  //Chic menu specific features
+  .menu__details--chic {
+
+    .dish-list {
+      font-size: 1.6rem;
+      margin: 27px 0 55px;
+
+      &__item {
+        align-items: center;
+        margin-bottom: 17px;
+
+        &__price {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
 }
 
 
