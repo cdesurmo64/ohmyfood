@@ -14,7 +14,7 @@
 
   &__details {
     box-shadow: 0 0 15px $menu-prev-shadow-color;
-    padding: 25px 0;
+    padding: 35px 0 5px;
 
     &__header {
       padding-bottom: 30px;
@@ -28,32 +28,29 @@
       padding: 0 14px;
 
       .bar {
-        flex: 1 1;
 
         img {
           max-width: 100%;
           position: relative;
-          top: 2px;
         }
       }
 
       h2 {
-        flex: 0 0 30%;
-        white-space: nowrap; //To avoid having the title on two lines
         box-sizing: border-box;
-        padding: 0 10px;
       }
     }
   }
 
   //Note menu specific features
   &__details--note {
+    padding: 25px 0;
     background-color: $menu-note-box-color;
     font-family: $comics;
     color: $menu-note-name-color;
 
 
     header {
+
       img {
         width: 40px;
       }
@@ -65,8 +62,22 @@
       }
     }
 
-    h2 {
-      font-size: 2.1rem;
+    &__subtitle {
+
+      .bar {
+        flex: 1 1;
+
+        img {
+          top: 2px
+        }
+      }
+
+      h2 {
+        flex: 0 0 30%;
+        padding: 0 10px;
+        white-space: nowrap; //To avoid having the title on two lines
+        font-size: 2.1rem;
+      }
     }
 
     footer {
@@ -87,6 +98,56 @@
       }
     }
   }
+
+  //Chic menu specific features
+  &__details--chic {
+    background-color: $menu-chic-box-color;
+    font-family: $source-serif;
+
+    header {
+
+      h1 {
+        font-family: $croissant;
+        font-weight: 500;
+        font-size: 2.7rem;
+        @include text-color-gradient(-80deg, $menu-chic-gradient-color1, 15%, $menu-chic-gradient-color2, 55%, $menu-chic-gradient-color3, 70%);
+        color: $menu-chic-name-color; //In case the gradient color properties used don't work in the browser
+      }
+    }
+
+    &__subtitle {
+      padding: 0 14px 10px;
+
+      .bar {
+        flex: 0 1 240px;
+
+        img {
+          top: 3px;
+        }
+      }
+
+      h2 {
+        flex: 0 0 60%;
+        padding: 0 15px;
+        font-size: 2.1rem;
+        line-height: 2.8rem;
+      }
+    }
+
+    &__starter {
+      color: $menu-chic-starter-color;
+    }
+
+    &__main-course {
+      color: $menu-chic-main-course-color;
+
+    }
+
+    &__dessert {
+      color: $menu-chic-dessert-color;
+    }
+  }
+
 }
 
 
@@ -126,6 +187,18 @@
       }
 
     }
+
+    //Chic menu specific features
+    //&__details--chic {
+    //
+    //  &__subtitle {
+    //    margin: 0 -45px;
+    //
+    //    h2 {
+    //      flex: 0 0 30%;
+    //    }
+    //  }
+    //}
   }
 }
 
