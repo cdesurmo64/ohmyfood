@@ -119,7 +119,7 @@
       padding: 0 14px 10px;
 
       .bar {
-        flex: 0 1 240px;
+        flex: 0 1 260px;
 
         img {
           top: 3px;
@@ -168,7 +168,11 @@
       padding: 0 14px 13px;
 
       .bar {
-        flex: 0 1 260px;
+        flex: 0 1 270px;
+
+        img {
+          top: 1px;
+        }
       }
 
       h2 {
@@ -347,7 +351,29 @@
         padding-bottom: 90px;
 
         h1 {
-          font-size: 3.7rem;
+          font-size: 4rem;
+        }
+      }
+
+      &__subtitle {
+        margin: 0 -61px;
+
+        h2 {
+          flex: 0 0 36%;
+          font-size: 2.2rem;
+        }
+      }
+    }
+
+    //Delight menu specific features
+    &__details--delight {
+      padding: 90px 85px 80px;
+
+      header {
+        padding-bottom: 90px;
+
+        h1 {
+          font-size: 7.5rem;
         }
       }
 
@@ -355,12 +381,15 @@
         margin: 0 -61px;
 
         .bar {
-          flex: 0 1 260px;
+
+          img {
+            top: 6px;
+          }
         }
 
         h2 {
-          flex: 0 0 36%;
-          font-size: 2.2rem;
+          flex: 0 0 32%;
+          font-size: 2.3rem;
         }
       }
     }
