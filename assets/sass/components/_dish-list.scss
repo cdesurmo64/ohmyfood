@@ -135,6 +135,24 @@
       }
     }
   }
+
+  //Taste menu specific features
+  .menu__details--taste {
+
+    .dish-list {
+      margin: 27px 0 55px;
+      font-size: 1.7rem;
+
+      &__item {
+        align-items: baseline;
+        margin-bottom: 17px;
+
+        &__price {
+          font-size: 2.1rem;
+        }
+      }
+    }
+  }
 }
 
 

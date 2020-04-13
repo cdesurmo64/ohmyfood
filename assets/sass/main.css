@@ -41,11 +41,11 @@ html body a {
 }
 
 .menu__details--delight .dish-list__item__price {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
 }
 
 .menu__details--taste .dish-list__item__price {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
 }
 
 @media (min-width: 768px) {
@@ -85,6 +85,18 @@ html body a {
     margin-bottom: 17px;
   }
   .menu__details--delight .dish-list__item__price {
+    font-size: 2.1rem;
+  }
+
+  .menu__details--taste .dish-list {
+    margin: 27px 0 55px;
+    font-size: 1.7rem;
+  }
+  .menu__details--taste .dish-list__item {
+    align-items: baseline;
+    margin-bottom: 17px;
+  }
+  .menu__details--taste .dish-list__item__price {
     font-size: 2.1rem;
   }
 }
@@ -591,7 +603,7 @@ main .soon__dot--3 {
     font-size: 5.5rem;
   }
   .menu__details--delight__subtitle {
-    margin: 0 -23px;
+    margin: 0 -20px;
   }
   .menu__details--delight__subtitle .bar img {
     top: 4px;
@@ -600,6 +612,29 @@ main .soon__dot--3 {
     flex: 0 0 38%;
     font-size: 2.2rem;
     letter-spacing: 0.07rem;
+    padding: 0 0;
+  }
+  .menu__details--taste {
+    padding: 64px 24px;
+  }
+  .menu__details--taste header {
+    padding-bottom: 64px;
+  }
+  .menu__details--taste header h1 {
+    font-size: 6.4rem;
+  }
+  .menu__details--taste__subtitle {
+    margin: 0 -10px;
+  }
+  .menu__details--taste__subtitle .bar {
+    flex: 0 1 270px;
+  }
+  .menu__details--taste__subtitle .bar img {
+    top: 4px;
+  }
+  .menu__details--taste__subtitle h2 {
+    flex: 0 0 30%;
+    font-size: 2.2rem;
     padding: 0 0;
   }
 }

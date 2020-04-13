@@ -6,8 +6,9 @@ width="415.000000pt" height="42.000000pt" viewBox="0 0 415.000000 42.000000"
 preserveAspectRatio="xMidYMid meet">
 <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#41963c" stop-opacity="1"/>
-    <stop offset="100%" stop-color="#90d158" stop-opacity="1"/>
+        <stop offset="0%" stop-color="#41963C" stop-opacity="1"/>
+        <stop offset="50%" stop-color="#79C55A" stop-opacity="1"/>
+        <stop offset="100%" stop-color="#B6F87A" stop-opacity="1"/>
     </linearGradient>
 </defs>
 <g transform="translate(0.000000,42.000000) scale(0.050000,-0.050000)"
