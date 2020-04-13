@@ -239,7 +239,6 @@
 
     }
 
-
     //Note menu specific features
     &__details--note {
 
@@ -254,8 +253,11 @@
         }
       }
 
-      h2 {
-        font-size: 2.6rem;
+      &__subtitle {
+
+        h2 {
+          font-size: 2.6rem;
+        }
       }
 
       footer {
@@ -266,7 +268,33 @@
         }
 
         p {
-        font-size: 3.7rem;
+          font-size: 3.7rem;
+        }
+      }
+    }
+
+    //Chic menu specific features
+    &__details--chic {
+      padding: 90px 80px;
+
+      header {
+        padding-bottom: 90px;
+
+        h1 {
+          font-size: 3.7rem;
+        }
+      }
+
+      &__subtitle {
+        margin: 0 -61px;
+
+        .bar {
+          flex: 0 1 260px;
+        }
+
+        h2 {
+          flex: 0 0 36%;
+          font-size: 2.2rem;
         }
       }
     }

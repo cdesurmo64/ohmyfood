@@ -62,7 +62,7 @@ html body a {
     margin: 27px 0 55px;
   }
   .menu__details--chic .dish-list__item {
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 17px;
   }
   .menu__details--chic .dish-list__item__price {
@@ -76,6 +76,14 @@ html body a {
 
   .menu__details--note .dish-list {
     font-size: 2.1rem;
+  }
+
+  .menu__details--chic .dish-list {
+    font-size: 1.8rem;
+    margin: 30px 0 65px;
+  }
+  .menu__details--chic .dish-list__item__price {
+    font-size: 2.2rem;
   }
 }
 .page-header {
@@ -504,7 +512,7 @@ main .soon__dot--3 {
   .menu__details--note header h1 {
     font-size: 4.5rem;
   }
-  .menu__details--note h2 {
+  .menu__details--note__subtitle h2 {
     font-size: 2.6rem;
   }
   .menu__details--note footer img {
@@ -513,6 +521,25 @@ main .soon__dot--3 {
   }
   .menu__details--note footer p {
     font-size: 3.7rem;
+  }
+  .menu__details--chic {
+    padding: 90px 80px;
+  }
+  .menu__details--chic header {
+    padding-bottom: 90px;
+  }
+  .menu__details--chic header h1 {
+    font-size: 3.7rem;
+  }
+  .menu__details--chic__subtitle {
+    margin: 0 -61px;
+  }
+  .menu__details--chic__subtitle .bar {
+    flex: 0 1 260px;
+  }
+  .menu__details--chic__subtitle h2 {
+    flex: 0 0 36%;
+    font-size: 2.2rem;
   }
 }
 
