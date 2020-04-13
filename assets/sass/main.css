@@ -44,6 +44,10 @@ html body a {
   font-size: 2.2rem;
 }
 
+.menu__details--taste .dish-list__item__price {
+  font-size: 2.2rem;
+}
+
 @media (min-width: 768px) {
   .dish-list__item {
     display: flex;
@@ -501,6 +505,35 @@ main .soon__dot--3 {
 }
 .menu__details--delight__subtitle h2 {
   flex: 0 0 60%;
+  padding: 0 10px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.menu__details--taste {
+  background-color: #FDFFFD;
+  font-family: "comics_light_regular", cursive;
+}
+.menu__details--taste header h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 500;
+  font-size: 3.9rem;
+  background: -webkit-linear-gradient(-70deg, #3D9339 20%, #8BD363 50%, #BFFF7E 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #72BF56;
+}
+.menu__details--taste__subtitle {
+  padding: 0 14px 13px;
+}
+.menu__details--taste__subtitle .bar {
+  flex: 1 1 270px;
+}
+.menu__details--taste__subtitle .bar img {
+  top: 1px;
+}
+.menu__details--taste__subtitle h2 {
+  flex: 0 0 40%;
   padding: 0 10px;
   font-size: 2.2rem;
   font-weight: 500;
