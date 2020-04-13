@@ -235,8 +235,11 @@
       &__subtitle {
         margin: 0 -13px;
 
-        img {
-          top: 1.4px;
+        .bar {
+
+          img {
+            top: 2px;
+          }
         }
 
         h2 {
@@ -245,6 +248,37 @@
           font-size: 2.0rem;
           letter-spacing: 0.05rem;
           padding: 0 4px;
+        }
+      }
+    }
+
+    //Delight menu specific features
+    &__details--delight {
+      padding: 64px 26px;
+
+      header {
+        padding-bottom: 64px;
+
+        h1 {
+          font-size: 5.5rem;
+        }
+      }
+
+      &__subtitle {
+        margin: 0 -23px;
+
+        .bar {
+
+          img {
+            top: 4px;
+          }
+        }
+
+        h2 {
+          flex: 0 0 38%;
+          font-size: 2.2rem;
+          letter-spacing: 0.07rem;
+          padding: 0 0;
         }
       }
     }

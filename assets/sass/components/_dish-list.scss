@@ -104,6 +104,23 @@
       }
     }
   }
+
+  //Delight menu specific features
+  .menu__details--delight {
+
+    .dish-list {
+      margin: 27px 0 55px;
+
+      &__item {
+        align-items: baseline;
+        margin-bottom: 17px;
+
+        &__price {
+          font-size: 2.1rem;
+        }
+      }
+    }
+  }
 }
 
 

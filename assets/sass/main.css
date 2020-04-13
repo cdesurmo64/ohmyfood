@@ -72,6 +72,17 @@ html body a {
   .menu__details--chic .dish-list__item__price {
     font-size: 2rem;
   }
+
+  .menu__details--delight .dish-list {
+    margin: 27px 0 55px;
+  }
+  .menu__details--delight .dish-list__item {
+    align-items: baseline;
+    margin-bottom: 17px;
+  }
+  .menu__details--delight .dish-list__item__price {
+    font-size: 2.1rem;
+  }
 }
 @media (min-width: 992px) {
   .dish-list {
@@ -515,8 +526,8 @@ main .soon__dot--3 {
   .menu__details--chic__subtitle {
     margin: 0 -13px;
   }
-  .menu__details--chic__subtitle img {
-    top: 1.4px;
+  .menu__details--chic__subtitle .bar img {
+    top: 2px;
   }
   .menu__details--chic__subtitle h2 {
     flex: 0 0 42%;
@@ -524,6 +535,27 @@ main .soon__dot--3 {
     font-size: 2rem;
     letter-spacing: 0.05rem;
     padding: 0 4px;
+  }
+  .menu__details--delight {
+    padding: 64px 26px;
+  }
+  .menu__details--delight header {
+    padding-bottom: 64px;
+  }
+  .menu__details--delight header h1 {
+    font-size: 5.5rem;
+  }
+  .menu__details--delight__subtitle {
+    margin: 0 -23px;
+  }
+  .menu__details--delight__subtitle .bar img {
+    top: 4px;
+  }
+  .menu__details--delight__subtitle h2 {
+    flex: 0 0 38%;
+    font-size: 2.2rem;
+    letter-spacing: 0.07rem;
+    padding: 0 0;
   }
 }
 @media (min-width: 992px) {
