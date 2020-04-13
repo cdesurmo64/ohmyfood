@@ -177,7 +177,7 @@
   .menu__details--chic {
 
     .dish-list {
-      font-size: 1.8rem;
+      font-size: 1.9rem;
       margin: 30px 0 65px;
 
       &__item {
@@ -201,6 +201,22 @@
         &__price {
           font-size: 2.3rem;
           letter-spacing: 0.1rem;
+        }
+      }
+    }
+  }
+
+  //Taste menu specific features
+  .menu__details--taste {
+
+    .dish-list {
+      font-size: 2rem;
+      margin: 30px 0 65px;
+
+      &__item {
+
+        &__price {
+          font-size: 2.4rem;
         }
       }
     }

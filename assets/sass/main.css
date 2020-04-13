@@ -110,7 +110,7 @@ html body a {
   }
 
   .menu__details--chic .dish-list {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin: 30px 0 65px;
   }
   .menu__details--chic .dish-list__item__price {
@@ -124,6 +124,14 @@ html body a {
   .menu__details--delight .dish-list__item__price {
     font-size: 2.3rem;
     letter-spacing: 0.1rem;
+  }
+
+  .menu__details--taste .dish-list {
+    font-size: 2rem;
+    margin: 30px 0 65px;
+  }
+  .menu__details--taste .dish-list__item__price {
+    font-size: 2.4rem;
   }
 }
 .page-header {
@@ -539,7 +547,7 @@ main .soon__dot--3 {
   padding: 0 14px 13px;
 }
 .menu__details--taste__subtitle .bar {
-  flex: 1 1 270px;
+  flex: 1 1 290px;
 }
 .menu__details--taste__subtitle .bar img {
   top: 1px;
@@ -627,7 +635,7 @@ main .soon__dot--3 {
     margin: 0 -10px;
   }
   .menu__details--taste__subtitle .bar {
-    flex: 0 1 270px;
+    flex: 0 1 290px;
   }
   .menu__details--taste__subtitle .bar img {
     top: 4px;
@@ -697,6 +705,25 @@ main .soon__dot--3 {
   }
   .menu__details--delight__subtitle h2 {
     flex: 0 0 32%;
+    font-size: 2.3rem;
+  }
+  .menu__details--taste {
+    padding: 90px 70px 80px;
+  }
+  .menu__details--taste header {
+    padding-bottom: 90px;
+  }
+  .menu__details--taste header h1 {
+    font-size: 8rem;
+  }
+  .menu__details--taste__subtitle {
+    margin: 0 -50px;
+  }
+  .menu__details--taste__subtitle .bar img {
+    top: 4px;
+  }
+  .menu__details--taste__subtitle h2 {
+    flex: 0 0 25%;
     font-size: 2.3rem;
   }
 }
