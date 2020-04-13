@@ -148,6 +148,38 @@
     }
   }
 
+  //Delight menu specific features
+  &__details--delight {
+    background-color: $menu-delight-big-box-color;
+    font-family: $comics;
+
+    header {
+
+      h1 {
+        font-family: $dancing;
+        font-weight: 500;
+        font-size: 3.9rem;
+        @include text-color-gradient(-70deg, $menu-delight-gradient-color1, 20%, $menu-delight-gradient-color2, 55%, $menu-delight-gradient-color3, 90%);
+        color: $menu-delight-name-color; //In case the gradient color properties used don't work in the browser
+      }
+    }
+
+    &__subtitle {
+      padding: 0 14px 13px;
+
+      .bar {
+        flex: 0 1 260px;
+      }
+
+      h2 {
+        flex: 0 0 60%;
+        padding: 0 10px;
+        font-size: 2.2rem;
+        font-weight: 500;
+        white-space: nowrap;
+      }
+    }
+  }
 }
 
 
