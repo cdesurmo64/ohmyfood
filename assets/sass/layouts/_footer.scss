@@ -12,7 +12,7 @@
   width: 100%;
   box-sizing: border-box;
 
-  .legal, .contact {
+  .legal-link, .contact {
     font-family: $montserrat;
     font-weight: 500;
     font-size: 1.8rem;
@@ -24,7 +24,7 @@
     }
   }
 
-  .legal {
+  .legal-link {
     text-align: left;
   }
 
@@ -42,7 +42,7 @@
   .page-footer {
     padding: 18px;
 
-    .legal, .contact {
+    .legal-link, .contact {
       font-size: 2.4rem;
     }
   }
@@ -78,7 +78,7 @@
 
   .page-footer {
 
-    .legal, .contact {
+    .legal-link, .contact {
       font-size: 2.6rem;
     }
 

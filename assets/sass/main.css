@@ -162,16 +162,16 @@ html body a {
   width: 100%;
   box-sizing: border-box;
 }
-.page-footer .legal, .page-footer .contact {
+.page-footer .legal-link, .page-footer .contact {
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 500;
   font-size: 1.8rem;
   flex-grow: 1;
 }
-.page-footer .legal a, .page-footer .contact a {
+.page-footer .legal-link a, .page-footer .contact a {
   color: #FDCB46;
 }
-.page-footer .legal {
+.page-footer .legal-link {
   text-align: left;
 }
 .page-footer .contact {
@@ -182,7 +182,7 @@ html body a {
   .page-footer {
     padding: 18px;
   }
-  .page-footer .legal, .page-footer .contact {
+  .page-footer .legal-link, .page-footer .contact {
     font-size: 2.4rem;
   }
 }
@@ -207,7 +207,7 @@ html body a {
   }
 }
 @media (min-width: 992px) {
-  .page-footer .legal, .page-footer .contact {
+  .page-footer .legal-link, .page-footer .contact {
     font-size: 2.6rem;
   }
   .page-footer a {
@@ -797,6 +797,36 @@ main .soon__dot--3 {
     height: 3px;
     border-radius: 1.5px;
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 25%, #BFFF7E 75%, #3D9339 100%);
+  }
+}
+.legal-notices {
+  padding: 20px 0;
+  text-align: justify;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+.legal-notices header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.legal-notices header h1 {
+  font-size: 3rem;
+}
+.legal-notices__article {
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+  .legal-notices {
+    padding: 20px 30px;
+  }
+}
+@media (min-width: 992px) {
+  .legal-notices {
+    padding: 60px 130px;
+  }
+  .legal-notices header {
+    margin-bottom: 50px;
   }
 }
 
