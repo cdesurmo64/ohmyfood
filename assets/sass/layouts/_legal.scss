@@ -1,4 +1,4 @@
-//MOBILE STYLE
+//MOBILE (& UP) STYLE
 
 .legal-notices {
   padding: 20px 0;
@@ -20,7 +20,7 @@
   }
 }
 
-//TABLET OVERRIDE STYLE
+//TABLET (& UP) OVERRIDE STYLE
 
 @media (min-width: $tablet) {
 
@@ -29,7 +29,7 @@
   }
 }
 
-//DESKTOP OVERRIDE STYLE
+//DESKTOP (& UP) OVERRIDE STYLE
 
 @media (min-width: $desktop) {
 
