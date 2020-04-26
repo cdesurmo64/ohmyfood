@@ -146,7 +146,7 @@ main {
 
 //TABLET OVERRIDE STYLE
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
 
   main {
     padding: 50px 35px 115px;
@@ -174,7 +174,7 @@ main {
 
 //DESKTOP OVERRIDE STYLE
 
-@media (min-width: 992px) {
+@media (min-width: $desktop) {
 
   main {
     padding: 50px 25px 125px;

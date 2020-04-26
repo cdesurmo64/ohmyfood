@@ -22,7 +22,7 @@
 
 //TABLET OVERRIDE STYLE
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
 
   .legal-notices {
     padding: 20px 30px;
@@ -31,7 +31,7 @@
 
 //DESKTOP OVERRIDE STYLE
 
-@media (min-width: 992px) {
+@media (min-width: $desktop) {
 
   .legal-notices {
     padding: 60px 130px;

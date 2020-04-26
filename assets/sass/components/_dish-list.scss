@@ -74,7 +74,7 @@
 
 //TABLET OVERRIDE STYLE
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
 
   //Shared menu style
   .dish-list {
@@ -158,7 +158,7 @@
 
 //DESKTOP OVERRIDE STYLE
 
-@media (min-width: 992px) {
+@media (min-width: $desktop) {
 
   //Shared menu style
   .dish-list {

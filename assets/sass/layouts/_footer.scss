@@ -37,7 +37,7 @@
 
 //TABLET OVERRIDE STYLE
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
 
   .page-footer {
     padding: 18px;
@@ -74,7 +74,7 @@
 }
 
 //Style
-@media (min-width: 992px) {
+@media (min-width: $desktop) {
 
   .page-footer {
 
