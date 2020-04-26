@@ -1,0 +1,13 @@
+{
+  "name": "ohmyfood-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./assets/sass/main.scss:./assets/css/main.css --style nested",
+    "prefix": "postcss ./assets/css/main.css --use autoprefixer -d ./assets/css/prefixed"
+  },
+  "author": "cdesurmo",
+  "license": "ISC"
+}
