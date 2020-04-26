@@ -19,56 +19,32 @@
 //Note menu specific features
 .menu__details--note {
 
-  .dish-list {
-
-    &__item {
-
-      &__price {
-        font-weight: bold;
-      }
-    }
+  .dish-list__item__price {
+    font-weight: bold;
   }
 }
 
 //Chic menu specific features
 .menu__details--chic {
 
-  .dish-list {
-
-    &__item {
-
-      &__price {
-        font-size: 2.2rem;
-      }
-    }
+  .dish-list__item__price {
+    font-size: 2.2rem;
   }
 }
 
 //Delight menu specific features
 .menu__details--delight {
 
-  .dish-list {
-
-    &__item {
-
-      &__price {
-        font-size: 2.3rem;
-      }
-    }
+  .dish-list__item__price {
+    font-size: 2.3rem;
   }
 }
 
 //Taste menu specific features
 .menu__details--taste {
 
-  .dish-list {
-
-    &__item {
-
-      &__price {
-        font-size: 2.3rem;
-      }
-    }
+  .dish-list__item__price {
+    font-size: 2.3rem;
   }
 }
 
@@ -77,17 +53,14 @@
 @media (min-width: $tablet) {
 
   //Shared menu style
-  .dish-list {
+  .dish-list__item {
+    display: flex;
+    margin-bottom: 20px;
 
-    &__item {
-      display: flex;
-      margin-bottom: 20px;
-
-      &__name {
-        flex: 1 0;
-        text-align: left;
-        margin-bottom: 0;
-      }
+    &__name {
+      flex: 1 0;
+      text-align: left;
+      margin-bottom: 0;
     }
   }
 
@@ -180,11 +153,8 @@
       font-size: 1.9rem;
       margin: 30px 0 65px;
 
-      &__item {
-
-        &__price {
-          font-size: 2.2rem;
-        }
+      &__item__price {
+        font-size: 2.2rem;
       }
     }
   }
@@ -196,12 +166,10 @@
       font-size: 2rem;
       margin: 30px 0 65px;
 
-      &__item {
+      &__item__price {
+        font-size: 2.3rem;
+        letter-spacing: 0.1rem;
 
-        &__price {
-          font-size: 2.3rem;
-          letter-spacing: 0.1rem;
-        }
       }
     }
   }
@@ -213,11 +181,9 @@
       font-size: 2rem;
       margin: 30px 0 65px;
 
-      &__item {
+      &__item__price {
+        font-size: 2.4rem;
 
-        &__price {
-          font-size: 2.4rem;
-        }
       }
     }
   }
